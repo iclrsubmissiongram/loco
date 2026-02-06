@@ -10,13 +10,6 @@ We create density-based hierarchy from this:
   - Large objects → Sparse representation (1-2 points) → Level 0
   - Objects near large ones → Medium density → Level 1  
   - Small isolated objects → Dense point clouds → Level 2
-
-This is HONEST because:
-1. We use CLEVR's natural properties (size, position)
-2. The hierarchy emerges from object characteristics, not arbitrary labels
-3. We clearly document what we're doing
-
-This is the V9 model compatible version for running LoCo experiments.
 """
 
 import os
