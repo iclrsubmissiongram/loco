@@ -1,28 +1,5 @@
 """
 HYPERBOLIC BASELINE COMPARISON: The Ultimate Geometry Test
-
-This experiment answers THE critical question from reviewers:
-"Why Lorentzian instead of Hyperbolic? Hyperbolic is the standard for hierarchies."
-
-We compare FOUR models:
-1. LoCo V9: Lorentzian + Worldlines + Scale-Adaptive Horizons
-2. Hyperbolic Worldlines: Hyperbolic (Poincaré) + Worldlines + Scale-Adaptive
-3. Euclidean Worldlines: Euclidean + Worldlines + Scale-Adaptive
-4. Euclidean Standard: 9 independent slots (baseline)
-
-KEY GEOMETRIC DIFFERENCES:
-- Lorentzian: Hierarchy via TIME dimension (causal cones, past→future)
-- Hyperbolic: Hierarchy via RADIAL distance (tree-like, center=root)
-- Euclidean: No inherent hierarchy (flat space)
-
-HYPOTHESIS:
-Lorentzian > Hyperbolic > Euclidean for VISUAL hierarchy because:
-- Visual hierarchies are CAUSAL (parts depend on wholes)
-- NOT tree-like (parts don't "branch" from wholes)
-
-If Hyperbolic wins: Pivot to tree-based hierarchy
-If Lorentzian wins: Strong evidence for causal structure
-If tie: Non-Euclidean geometry matters, specific choice less important
 """
 
 import torch
