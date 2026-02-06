@@ -1,9 +1,6 @@
 """
 HYPERBOLIC BASELINE COMPARISON: The Ultimate Geometry Test
 
-This experiment answers THE critical question from reviewers:
-"Why Lorentzian instead of Hyperbolic? Hyperbolic is the standard for hierarchies."
-
 We compare FOUR models:
 1. LoCo V9: Lorentzian + Worldlines + Scale-Adaptive Horizons
 2. Hyperbolic Worldlines: Hyperbolic (Poincaré) + Worldlines + Scale-Adaptive
@@ -20,9 +17,6 @@ Lorentzian > Hyperbolic > Euclidean for VISUAL hierarchy because:
 - Visual hierarchies are CAUSAL (parts depend on wholes)
 - NOT tree-like (parts don't "branch" from wholes)
 
-If Hyperbolic wins: Pivot to tree-based hierarchy
-If Lorentzian wins: Strong evidence for causal structure
-If tie: Non-Euclidean geometry matters, specific choice less important
 """
 
 import torch
